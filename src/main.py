@@ -11,3 +11,8 @@ def read_index():
 @app.get("/api/v1/hello-world/")
 def get_hello_world():
     return {"what": "H", "where": "H", "version": 1.0}
+
+
+@app.get("/api/v1/xin-chao/")
+def get_hello_world():
+    return {"name": "Xin chao anh em!"}
