@@ -14,5 +14,5 @@ def get_hello_world():
 
 
 @app.get("/api/v1/xin-chao/")
-def get_hello_world():
+def get_xin_chao():
     return {"name": "Xin chao anh em!"}
